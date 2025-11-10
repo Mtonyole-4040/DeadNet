@@ -1,0 +1,27 @@
+{
+  "project": "DeadNet",
+  "version": "1.0",
+  "description": "AI necromancer that revives dead codebases into modern, living systems — built by Tokiva Sisters (Tanzania) for Kiroween Hackathon 2025.",
+  "workflow": {
+    "detect_legacy": "Identify outdated syntax or libraries (Python2, PHP, VB6, COBOL, etc.)",
+    "transform": "Map legacy patterns to modern equivalents using AI-powered logic within Kiro",
+    "soul_profile": "Generate digital summary (era, upgrades, modernization score)",
+    "report": "Compile before/after comparison for developer review"
+  },
+  "goals": [
+    "Revive dead technologies using AI",
+    "Preserve global digital heritage",
+    "Enable developers to modernize legacy systems faster and safer"
+  ],
+  "powered_by": {
+    "vibe_coding": "Used for iterative conversation-based code generation",
+    "agent_hooks": "Automated scanning and refactoring process",
+    "steering_docs": "Maintain spooky and educational AI tone",
+    "mcp": "Integrate new legacy code formats easily"
+  },
+  "team": {
+    "name": "Tokiva Sisters",
+    "country": "Tanzania",
+    "members": ["Saraphina Mtonyole", "Maryam Said", "Beatrice Alfredy"]
+  }
+}
