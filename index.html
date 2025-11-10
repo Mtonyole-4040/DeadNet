@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DeadNet – Reviving Lost Tech Souls</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>DeadNet: Reviving Lost Tech Souls</h1>
+    <p class="tag">by Tokiva Sisters (Tanzania)</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>1) Upload or paste “old code”</h2>
+      <textarea id="oldCode" placeholder="Paste legacy code here… e.g. print &quot;Hello&quot; (Python2), var x = 1 (old JS), mysql_query(...) (old PHP)…"></textarea>
+      <div class="row">
+        <input type="file" id="fileInput" accept=".txt,.js,.py,.php,.vb,.bas,.cob,.pas" />
+        <button id="reviveBtn">🧪 Revive</button>
+      </div>
+      <small>Tip: Try the samples below</small>
+      <div class="chips" id="samples"></div>
+    </section>
+
+    <section class="panel two-col">
+      <div>
+        <h2>2) Ghost of the Past (Original)</h2>
+        <pre id="originalOut" class="code"></pre>
+      </div>
+      <div>
+        <h2>3) Brought Back to Life (Modernized)</h2>
+        <pre id="modernOut" class="code"></pre>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>🕯 Digital Soul Profile</h2>
+      <div id="soulProfile" class="soul"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Tokiva Sisters • Prototype demo for Kiroween • Not a production converter</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

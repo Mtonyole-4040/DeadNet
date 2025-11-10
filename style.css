@@ -1,0 +1,44 @@
+:root {
+  --bg: #0b0f12;
+  --panel: #11161b;
+  --text: #e7f5ee;
+  --muted: #8fb5a7;
+  --glow: #30ff8f;
+  --glow-dim: #1a4f37;
+  --code-bg: #0a1210;
+  --accent: #00e07b;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial; }
+
+.hero { padding: 40px 16px; text-align: center; background: radial-gradient(1200px 600px at 50% 0%, rgba(0,224,123,0.15), transparent 60%); }
+.hero h1 { margin: 0 0 6px; font-size: 28px; text-shadow: 0 0 12px rgba(0,224,123,0.4); }
+.tag { margin: 0; color: var(--muted); }
+
+.container { max-width: 1100px; margin: 24px auto 80px; padding: 0 16px; display: grid; gap: 18px; }
+
+.panel { background: linear-gradient(180deg, rgba(0,224,123,0.06), rgba(0,224,123,0.0)), var(--panel); border: 1px solid #132821; border-radius: 14px; padding: 16px; box-shadow: 0 0 24px rgba(0,224,123,0.06) inset; }
+.panel h2 { margin-top: 0; font-size: 18px; color: var(--accent); }
+
+textarea { width: 100%; min-height: 160px; background: var(--code-bg); color: var(--text); border: 1px solid #143527; border-radius: 8px; padding: 12px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; outline: none; }
+textarea::placeholder { color: #79a39280; }
+
+.row { display: flex; gap: 10px; align-items: center; margin-top: 10px; }
+input[type="file"] { color: var(--muted); }
+button { background: var(--accent); border: none; color: #02130a; padding: 10px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; }
+button:hover { filter: brightness(1.05); }
+
+.two-col { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 900px) {
+  .two-col { grid-template-columns: 1fr 1fr; }
+}
+
+.code { background: var(--code-bg); border: 1px solid #143527; border-radius: 8px; padding: 12px; min-height: 180px; overflow: auto; white-space: pre-wrap; }
+
+.soul { border: 1px solid #143527; border-radius: 10px; padding: 12px; background: radial-gradient(400px 200px at 10% 30%, rgba(0,224,123,0.08), transparent 60%), #0b1411; font-size: 14px; line-height: 1.4; }
+
+.chips { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; }
+.chips button { background: transparent; border: 1px dashed #2b6a4f; color: var(--text); border-radius: 999px; padding: 6px 10px; font-size: 12px; }
+.chips button:hover { background: #103324; }
+footer { text-align: center; color: var(--muted); padding: 32px 8px; }
