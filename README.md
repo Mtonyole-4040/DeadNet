@@ -92,12 +92,11 @@ DeadNet/
 **Tokiva Sisters (Tanzania)**  
 A women-led African innovation team empowering youth through AI, cybersecurity, and creative technology.
 
-| Member | Role |
+| Member | 
 |---------|------|
-| Saraphina Mtonyole | Team Lead / Developer |
-| Maryam Said | Product Strategist |
-| Beatrice Alfredy | UI/UX & Research |
-| Neema Simon | AI Workflow Designer |
+| Saraphina Mtonyole |
+| Maryam Said | 
+| Beatrice Alfredy |
 
 ---
 
