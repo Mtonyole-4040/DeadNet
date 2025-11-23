@@ -57,7 +57,7 @@ DeadNet uses **Kiro AI IDE** features conceptually:
 
 ## 🧪 Demo Prototype
 🎮 **Try the Prototype:**  
-[Click here to open DeadNet](https://github.io/DeadNet/)  
+[Click here to open DeadNet](https://mtonyole-4040.github.io/DeadNet/)  
 *(If not live yet, open `index.html` locally.)*
 
 Features:
